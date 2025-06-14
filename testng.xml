@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E-Commerce Test Suite" parallel="tests" thread-count="3">
+    <test name="Login Tests">
+        <classes>
+            <class name="com.ecommerce.tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Search Tests">
+        <classes>
+            <class name="com.ecommerce.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test name="Product Tests">
+        <classes>
+            <class name="com.ecommerce.tests.ProductTest"/>
+        </classes>
+    </test>
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.ecommerce.tests.CartTest"/>
+        </classes>
+    </test>
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.ecommerce.tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
