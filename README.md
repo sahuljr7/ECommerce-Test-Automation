@@ -17,14 +17,3 @@ A hybrid automation framework for e-commerce applications using Selenium WebDriv
 - Cart management
 - Checkout process
 
-## Setup
-
-1. Clone repository
-2. Install dependencies: `mvn clean install`
-3. Run tests: `mvn test`
-4. View reports in `test-output/` folder
-
-## Configuration
-
-- Update `src/main/resources/config/config.properties` for environment settings
-- Add test data in `src/main/resources/testdata/`
